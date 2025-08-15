@@ -12,4 +12,5 @@ test('Test',async({page})=>{
         console.log(await product.textContent());
     }
     await page.waitForTimeout(3000);
+    console.log("1st change");
 })
